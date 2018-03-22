@@ -1,12 +1,150 @@
-<!doctype html> 
-<head> 
-	<meta charset="utf-8"> 
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-	<title></title> 
-	<meta name="description" content=""> 
-	<meta name="viewport" content="width=device-width, initial-scale=1"> 
-</head> 
-<body> 	
-	<a href="https://dbriemann.github.io/blog">My blog</a>
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="tachyons.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="mw100 center monospace bg-washed-blue">
+	<header>
+	</header>
+
+	<main>		
+		<div class="flex-l">
+			<div class="fl w-100 w-50-l tr-l tl bg-navy washed-blue pa4">
+				<h2 class="">About</h2>
+				<p>david linus briemann <br> born october 4th, 1982</p>
+				<h2 class="">Contact</h2>
+				<p>
+					<a class="lightest-blue no-underline dim fw7" href="mailto:ragingdave@mailbox.org">ragingdave@mailbox.org</a> <sym>/</sym> 
+					<a class="lightest-blue no-underline dim fw7" href="https://twitter.com/Raging_Dave">@Raging_Dave</a>
+				</p>
+				<h2 class="">Languages</h2>
+				<p>german <sym>/</sym> english</p>
+				<h2 class="">Occupation</h2>
+				<p>software engineer <sym>/</sym> developer <sym>/</sym> coder</p>
+				<h2 class="">Employment Status</h2>
+				<p>available for hire</p>
+			</div>
+			<div class="fl w-100 w-50-l tl navy bg-washed-blue pa4">
+				<h2 class="">Technologies</h2>
+				<p>
+					languages<sym>:</sym> go <sym>/</sym> c <sym>/</sym> c++ <sym>/</sym> lua<br>
+					tools<sym>:</sym> git <sym>/</sym> valgrind
+				</p>
+				<h2 class="">Domains</h2>
+				<p>algorithms <sym>/</sym> optimization <sym>/</sym> bit twiddling <sym>/</sym> graphics <sym>/</sym> backend <sym>/</sym> api</p>
+			</div>
+		</div>
+
+		<div class="flex-l">
+			<div class="fl w-100 w-50-l tr-l tl pl4 pr4-l navy bg-washed-blue">
+				<h1>Projects</h1>
+			</div>
+			<div class="fl w-100 w-50-l tl bg-navy washed-blue pl4 pt2">
+				<div class="pb3">
+					<h2 class=""><a class="no-underline dim lightest-blue f3" href="https://namesmith.io">Namesmith.io</a></h2>
+					<p>
+						a business name generator and<br>
+						domain availability checker<br>
+						tech stack<sym>:</sym> go <sym>/</sym> javascript <sym>/</sym> html <sym>/</sym> css <br>
+						status<sym>:</sym> live since 2015
+					</p>
+				</div>
+				<div class="pb3">
+					<h2 class=""><a class="no-underline lightest-blue dim f3" href="https://github.com/dbriemann/chesskimo">Chesskimo</a></h2>
+					<p>
+						a chess engine utilizing 0x88 board representation <br> 
+						for fast move generation <br>
+						tech stack<sym>:</sym> go <br>
+						status<sym>:</sym> work in progress
+					</p>
+				</div>
+				<div class="pb3">
+					<h2 class=""><a class="no-underline lightest-blue dim f3" href="https://github.com/dbriemann/libpartikel">libpartikel</a></h2>
+					<p>
+						a particle system for <a class="no-underline lightest-blue dim fw7" href="https://github.com/raysan5/raylib">raylib</a> <br>
+						c99 header only library<br>
+						tech stack<sym>:</sym> c <sym>/</sym> raylib <br>
+						status<sym>:</sym> working alpha
+					</p>
+				</div>
+				<div class="pb3">
+					<h2 class=""><a class="no-underline lightest-blue dim f3" href="https://github.com/dbriemann/geopard">Geopard</a></h2>
+					<p>
+						a fast and slim geocoding library written in go <br>
+						for the google geolocation api<br>
+						tech stack<sym>:</sym> go <br>
+						status<sym>:</sym> finished
+					</p>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- <div class="flex-l">
+			<div class="fl w-100 w-50-l tr-l tl pl4 pr4-l bg-navy washed-blue">
+				<h2 class="ma0 pt3 pb3"><a class="no-underline washed-blue dim f3" href="https://namesmith.io">Namesmith.io</a></h2>
+			</div>
+			<div class="fl w-100 w-50-l tl pl4 navy bg-washed-blue">
+				<p>
+					a business name generator and<br>
+					domain availability checker<br>
+					tech stack<sym>:</sym> go <sym>/</sym> javascript <sym>/</sym> html <sym>/</sym> css <br>
+					status<sym>:</sym> live since 2015
+				</p>
+			</div>
+		</div>
+
+		<div class="flex-l">
+			<div class="fl w-100 w-50-l tr-l tl pl4 pr4-l bg-navy washed-blue">
+				<h2 class="ma0 pt3 pb3"><a class="no-underline washed-blue dim f3" href="https://github.com/dbriemann/chesskimo">Chesskimo</a></h2>
+			</div>
+			<div class="fl w-100 w-50-l tl pl4 navy bg-washed-blue">
+				<p>
+					a chess engine utilizing 0x88 board representation <br> 
+					for fast move generation <br>
+					tech stack<sym>:</sym> go <br>
+					status<sym>:</sym> work in progress
+				</p>
+			</div>
+		</div>
+
+		<div class="flex-l">
+			<div class="fl w-100 w-50-l tr-l tl pl4 pr4-l bg-navy washed-blue">
+				<h2 class="ma0 pt3 pb3"><a class="no-underline washed-blue dim f3" href="https://github.com/dbriemann/libpartikel">libpartikel</a></h2>
+			</div>
+			<div class="fl w-100 w-50-l tl pl4 navy bg-washed-blue">
+				<p>
+					a particle system for <a class="no-underline navy dim fw7" href="https://github.com/raysan5/raylib">raylib</a> <br>
+					c99 header only library<br>
+					tech stack<sym>:</sym> c <sym>/</sym> raylib <br>
+					status<sym>:</sym> working alpha
+				</p>
+			</div>
+		</div>
+
+		<div class="flex-l">
+			<div class="fl w-100 w-50-l tr-l tl pl4 pr4-l bg-navy washed-blue">
+				<h2 class="ma0 pt3 pb3"><a class="no-underline washed-blue dim f3" href="https://github.com/dbriemann/geopard">Geopard</a></h2>
+			</div>
+			<div class="fl w-100 w-50-l tl pl4 navy bg-washed-blue">
+				<p>
+					a fast and slim geocoding library written in go <br>
+					for the google geolocation api<br>
+					tech stack<sym>:</sym> go <br>
+					status<sym>:</sym> finished
+				</p>
+			</div>
+		</div> -->
+	</main>	
+
+	<footer>
+	</footer>
 </body>
+
 </html>
