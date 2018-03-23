@@ -1,1 +1,10 @@
 sym { color: #ff6300; }
+
+@media screen and (min-width: 60em) {
+    .navy-l { color: #001b44; }
+    .washed-blue-l { color: #f6fffe; }
+    .bg-navy-l { background-color: #001b44; }
+    .bg-washed-blue-l { background-color: #f6fffe; }
+    .lightest-blue-l { color: #cdecff; }
+    .light-blue-l { color: #96ccff; }
+}
