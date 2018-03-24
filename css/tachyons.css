@@ -761,7 +761,7 @@ img { max-width: 100%; }
    Docs: http://tachyons.io/docs/typography/font-family/
 
 */
-.monospace { font-family: Inconsolata, monospace; }
+.monospace { font-family: 'Space Mono', Cousine, Inconsolata, 'Source Code Pro', monospace; }
 .sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
 .serif { font-family: georgia, times, serif; }
 .system-sans-serif { font-family: sans-serif; }
